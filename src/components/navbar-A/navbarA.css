@@ -1,0 +1,130 @@
+.myLog__navbarA {
+    padding: 1rem 10rem;
+    background-color: var(--color-white);
+}
+
+.myLog__navbarA-content {
+    display: flex;
+}
+
+.myLog__navbarA-content_left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 2;
+}
+
+.myLog__navbarA-content_left-logoWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.myLog__navbarA-content_left-logoWrap_logo {
+    font-size: 2rem;
+    font-family: var(--font-family-Alata);
+    text-transform: uppercase;
+}
+
+.myLog__navbarA-content_left-logoWrap_logoIcon {
+    font-size: 2.5rem !important;
+    color: var(--color-orangeA); 
+}
+
+.myLog__navbarA-content_left-inputWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--color-greyL);
+    border-radius: 5px;
+    margin-left: 2.5rem;
+    padding: 0 1rem;
+}
+
+.myLog__navbarA-content_left-inputWrap_inputIcon {
+    color: var(--color-greyL);
+}
+
+.myLog__navbarA-content_left-inputWrap input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 .5rem;
+}
+
+.myLog__navbarA-content_left button {
+    width: 150px;
+    height: 40px;
+    background-color: var(--color-orangeA);
+    text-transform: uppercase;
+    color: var(--color-white);
+    font-family: var(--font-family-Varela);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: .7rem;
+    cursor: pointer;
+}
+
+.myLog__navbarA-content_left button:hover {
+    background-color: var(--color-orangeB);
+}
+
+.myLog__navbarA-content_right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: var(--font-family-Alata);
+}
+
+.myLog__navbarA-content_right-accountWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.myLog__navbarA-content_right-accountWrap_accountIcon,
+.myLog__navbarA-content_right-accountWrap_accountIconDrop,
+.myLog__navbarA-content_right-helpWrap_helpDrop
+{
+    cursor: pointer;
+}
+
+.myLog__navbarA-content_right-helpWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0 1.5rem;
+}
+
+.myLog__navbarA-content_right-cartWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:700px) {
+    .myLog__navbarA-content_right {
+        display: none;
+    }
+
+    .myLog__navbarA-content_left-inputWrap {
+        display: none;
+    }
+
+.myLog__navbarA-content_left button {
+    display: none;
+}
+
+}

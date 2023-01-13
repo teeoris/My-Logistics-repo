@@ -1,0 +1,157 @@
+.myLog__home {
+    background: var(--color-greyBG);
+}
+
+.myLog__home-content {
+    height: 650px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../asset/Img_01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.myLog__home-content_intro {
+    padding: 0 10rem;
+}
+
+.myLog__home-content_intro-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10rem 0;
+    max-width: 800px;
+}
+
+.myLog__home-content_intro-details_title {
+    color: var(--color-greyS);
+    font-family: var(--font-family-Varela);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.myLog__home-content_intro-details_desc {
+    color: var(--color-white);
+    font-family: var(--font-family-Varela);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-top: .5rem;
+}
+
+.myLog__home-content_services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+
+.myLog__home-content_serviceOptions {
+    margin: 2rem 10rem;
+    height: 300px;
+    background-color: var(--color-white);
+    display: flex;
+}
+
+.myLog__home-content_serviceOptions_wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.myLog__home-content_serviceOptions_wrapper-left {
+    width: 100%;
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+}
+
+.myLog__home-content_serviceOptions_wrapper-right {
+    flex: 1;
+}
+
+.myLog__home-content_serviceOptions_wrapper-right img {
+    width: 98%;
+}
+
+.myLog__home-content_review {
+    padding: 0 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myLog__home-content_pricing {
+    margin: 0 10rem;
+    background: var(--color-white);
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.myLog__home-content_pricing-title {
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--font-family-Alata);
+    text-transform: uppercase;
+}
+
+.myLog__home-content_pricing-Wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+
+@media screen and (max-width:700px) {
+    
+    .myLog__home-content_pricing {
+            margin: 0 2rem;
+            padding: 2rem 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+    .myLog__home-content_pricing-Wrap {
+            display: block;
+        }
+
+        .myLog__home-content_services {
+            display: block;
+            padding: 0 4rem;
+        }
+    
+    .myLog__home-content_review {
+        padding: 0 4rem;
+        display: block;
+    }
+
+   .myLog__home-content_intro {
+       padding: 0 4rem;
+       text-align: center;
+   }
+
+   .myLog__home-content_intro-details {
+       max-width: none;
+       align-items: center;
+   }
+
+   .myLog__home-content_intro-details_title {
+       font-size: 3rem;
+   }
+
+   .myLog__home-content_intro-details_desc {
+       font-size: 1rem;
+       text-transform: capitalize;
+   }
+
+.myLog__home-content_serviceOptions {
+    /* margin: 2rem 10rem;
+    height: 300px; */
+    display: none;
+}
+
+}
+

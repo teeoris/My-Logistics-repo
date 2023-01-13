@@ -1,0 +1,145 @@
+.myLog__navbarB {
+    padding: .5rem 10rem;
+    background-color: var(--color-white);
+    border-top: 1px solid var(--color-greyL);
+}
+
+.myLog__navbarB-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myLog_navbarB-content_left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    font-family: var(--font-family-Alata);
+    font-size: .8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.myLog_navbarB-content_left p {
+    padding-right: 1rem;
+}
+
+.myLog_navbarB-content_left p a:hover {
+    color: var(--color-orangeA)
+}
+
+.myLog_navbarB-content_right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.myLog_navbarB-content_right-inputWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myLog_navbarB-content_right-text {
+    text-transform: uppercase;
+    font-family: var(--font-family-Alata);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.myLog_navbarB-content_right-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 40px;
+    border: 1px solid var(--color-greyL);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 1rem;
+    padding: 0 1rem;
+    outline: none;
+}
+
+.myLog_navbarB-content_right-searchIcon {
+    color: var(--color-white);
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-orangeA);
+    background-color: var(--color-orangeA);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.myLog_navbarB-content_right-menuContent {
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.myLog_navbarB-content_right-menuContent_menuWrap {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 250px;
+    background-color: var(--color-orangeA);
+    padding: 2rem;
+    height: calc(100vh - 130px);
+}
+
+.myLog_navbarB-content_right-menuContent_menuWrap-item {
+    line-height: 5rem;
+    font-family: var(--font-family-Alata);
+    text-transform: uppercase;
+}
+
+.myLog_navbarB-content_right-menuContent_menuWrap-item p a {
+    color: var(--color-white);
+}
+
+
+
+@media screen and (max-width:700px) {
+.myLog__navbarB {
+        padding: .5rem 2rem;
+    }
+
+.myLog_navbarB-content_left {
+    font-size: .85rem;
+}
+
+.myLog_navbarB-content_right-menuContent {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.myLog_navbarB-content_left {
+    display: none;
+}
+
+.myLog_navbarB-content_right-text {
+    display: none;
+}
+
+.myLog_navbarB-content_right-input {
+    width: 350px;
+    height: 30px;
+    margin-left: .2rem;
+}
+
+.myLog_navbarB-content_right-searchIcon {
+    height: 30px;
+}
+
+.myLog_navbarB-content_right-text {
+    font-size: 0.7rem;
+}
+
+}

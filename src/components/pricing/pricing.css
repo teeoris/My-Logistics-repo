@@ -1,0 +1,78 @@
+.myLog__pricing {
+    max-width: 250px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    font-family: var(--font-family-Alata);
+    box-shadow: -1px 5px 14px 0px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: -1px 5px 14px 0px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: -1px 5px 14px 0px rgba(0, 0, 0, 0.17);
+}
+
+.myLog__pricing-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myLog__pricing-content_title {
+    background-color: var(--color-orangeA);
+    color: var(--color-white);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.myLog__pricing-content_title p {
+    font-size: .85rem;
+    padding: .5rem 0;
+}
+
+.myLog__pricing-content_colWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: var(--font-family-Alata);
+    font-size: .85rem;
+    padding-bottom: 2rem;
+}
+
+.myLog__pricing-content_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.myLog__pricing-content_col-amount {
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.myLog__pricing-content_col-line {
+    width: 230px;
+    height: 1px;
+    background-color: var(--color-greyL);
+    margin: 1rem;
+}
+
+
+@media screen and (max-width: 700px) {
+    .myLog__pricing {
+            min-width: 350px;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+        }
+
+        .myLog__pricing-content_col-line {
+            width: 300px;
+        }
+}

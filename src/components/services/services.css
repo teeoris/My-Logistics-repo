@@ -1,0 +1,43 @@
+.myLog__services-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 380px;
+    background: var(--color-white);
+    border-radius: 5px;
+    padding: 1rem;
+
+    box-shadow: -1px 5px 14px 0px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: -1px 5px 14px 0px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: -1px 5px 14px 0px rgba(0, 0, 0, 0.17);
+}
+
+.myLog__services-content_icon {
+    color: var(--color-orangeA);
+    font-size: 4rem !important;
+}
+
+.myLog__services-content_tiltle {
+    padding: .5rem 0;
+    text-transform: uppercase;
+    font-family: var(--font-family-Alata);
+    font-size: .85rem;
+    font-weight: bold;
+}
+
+.myLog__services-content_desc {
+    font-family: var(--font-family-Alata);
+    font-size: .8rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 700px) {
+    .myLog__services-content {
+            margin-bottom: 1.5rem;
+            max-width: none;
+        }
+}

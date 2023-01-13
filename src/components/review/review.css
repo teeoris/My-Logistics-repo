@@ -1,0 +1,43 @@
+.myLog__review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-white);
+    max-width: 380px;
+    margin: 2rem 0;
+    border-radius: 5px;
+
+    box-shadow: -1px 5px 14px 0px rgba(0, 0, 0, 0.17);
+    -webkit-box-shadow: -1px 5px 14px 0px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: -1px 5px 14px 0px rgba(0, 0, 0, 0.17);
+}
+
+.myLog__review-imgWrap {
+    width: 100%;
+    height: 200px;
+}
+
+.myLog__review-imgWrap img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.myLog__review-desc {
+    padding: 1rem;
+    font-family: var(--font-family-Alata);
+    font-size:.85rem;
+    line-height: 1.2rem;
+    text-align: justify;
+}
+
+
+@media screen and (max-width:700px) {
+    .myLog__review {
+            max-width: none;
+            margin: 2rem 0;
+        }
+}
+

@@ -1,0 +1,191 @@
+.myLog__footer {
+    padding: 2rem 10rem;
+    background: var(--color-greyD);
+}
+
+.myLog__footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.myLog__footer-content_row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.myLog__footer-content_row1-col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.myLog__footer-content_row1-col1_title,
+.myLog__footer-content_row1-col2_title,
+.myLog__footer-content_row2-title,
+.myLog__footer-content_row3-title,
+.myLog__footer-content_row4-col1_title,
+.myLog__footer-content_row4-col2_title {
+    color: var(--color-orangeA);
+    text-transform: uppercase;
+    font-family: var(--font-family-Alata);
+}
+
+.myLog__footer-content_row1-col1_item,
+.myLog__footer-content_row1-col2_item,
+.myLog__footer-content_row2-item,
+.myLog__footer-content_row3-item {
+    padding: .5rem 0;
+}
+
+.myLog__footer-content_row1-col1_item p a,
+.myLog__footer-content_row1-col2_item p a,
+.myLog__footer-content_row2-item p a,
+.myLog__footer-content_row3-item p a {
+    color: var(--color-white);
+    font-family: var(--font-family-Alata);
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+
+.myLog__footer-content_row1-col1_item p a:hover,
+.myLog__footer-content_row1-col2_item p a:hover,
+.myLog__footer-content_row2-item p a:hover,
+.myLog__footer-content_row3-item p a:hover {
+    border-bottom: 1px solid var(--color-white);
+}
+
+.myLog__footer-content_row1-col2 {
+    padding-top: 1.5rem;
+}
+
+.myLog__footer-content_row4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.myLog__footer-content_row4-col1 {
+    padding-bottom: 1.5rem;
+}
+
+.myLog__footer-content_row4-col1_socials {
+    color: var(--color-white);
+    padding-top: 0.5rem;
+}
+
+.myLog__footer-content_row4-col1_socials-icon {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.myLog__footer-content_row4-col1_socials-icon:hover {
+    color: var(--color-greyL);
+}
+
+.myLog__footer-content_row4-col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 350px;
+}
+
+.myLog__footer-content_row4-col2_details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--color-greyL);
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    padding-top: 0.5rem;
+    font-family: var(--font-family-Alata);
+    cursor: pointer;
+}
+
+.myLog__footer-content_row4-col2_details p {
+    padding-right: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.myLog__footer-content_row4-col2_details p:hover {
+    color: var(--color-white);
+}
+
+
+@media screen and (max-width:700px){
+    .myLog__footer {
+        padding: 2rem 2rem;
+    }
+
+    .myLog__footer-content {
+        display: block;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1rem 0;
+    }
+
+    .myLog__footer-content_row1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .myLog__footer-content_row1-col2 {
+        padding-top: 0;
+    }
+
+    .myLog__footer-content_row3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myLog__footer-content_row4 {
+         padding-top: 2rem;
+    }
+
+    .myLog__footer-content_row4-col2 {
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+        .myLog__footer-content_row4-col1_socials-icon {
+            font-size: 1.2rem !important;
+        }
+
+    .myLog__footer-content_row4-col2_details {
+        font-size: 0.85rem;
+    }
+
+    .myLog__footer-content_row4-col2_details p {
+        padding-right: 0.85rem;
+    }
+
+    .myLog__footer-content_row1-col1_title,
+    .myLog__footer-content_row1-col2_title,
+    .myLog__footer-content_row2-title,
+    .myLog__footer-content_row3-title,
+    .myLog__footer-content_row4-col1_title,
+    .myLog__footer-content_row4-col2_title {
+        font-size: 0.85rem;
+    }
+
+    .myLog__footer-content_row1-col1_item,
+    .myLog__footer-content_row1-col2_item,
+    .myLog__footer-content_row2-item,
+    .myLog__footer-content_row3-item {
+        font-size: 0.7rem;
+    }
+
+    .myLog__footer-content_row1,
+    .myLog__footer-content_row2,
+    .myLog__footer-content_row3 {
+        margin-bottom: 1rem;
+    }
+}

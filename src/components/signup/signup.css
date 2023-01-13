@@ -1,0 +1,173 @@
+.myLog__sign {
+    padding: 1rem 10rem;
+    background: var(--color-greyS);
+}
+
+.myLog__signup-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myLog__signup-content_left {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.myLog__signup-content_left-starIconWrap {
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--color-orangeA);
+    background: var(--color-orangeA);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myLog__signup-content_left-starIconWrap_starIcon {
+    font-size: 2.5rem !important;
+    color: var(--color-white);
+}
+
+.myLog__signup-content_left-desc {
+    padding-left: 1rem;
+    font-family: var(--font-family-Alata);
+    text-transform: capitalize;
+}
+
+.myLog__signup-content_left-desc p {
+    font-size: 0.8rem;
+}
+
+.myLog__signup-content_left-desc_os {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.myLog__signup-content_left-desc_os p {
+    border: 1px solid var(--color-white);
+    background-color: var(--color-white);
+    padding: .5rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.myLog__signup-content_left-desc_os-iconWrap {
+    padding-left: 6rem;
+    color: var(--color-greyD);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myLog__signup-content_left-desc_os-iconWrap_icon {
+    font-size: 3rem !important;
+    padding-right: 0.5rem;
+    cursor: pointer;
+}
+
+.myLog__signup-content_left-desc_os-iconWrap_icon:hover {
+    color: var(--color-orangeA);
+}
+
+.myLog__signup-content_right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.myLog__signup-content_right-title {
+    font-weight: bold;
+    font-family: var(--font-family-Alata);
+    font-size: 0.8rem;
+}
+
+.myLog__signup-content_right-desc {
+    font-size: .8rem;
+    padding: .5rem 0; 
+    font-family: var(--font-family-Alata);
+}
+
+.myLog__signup-content_right-inputWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.myLog__signup-content_right-inputWrap input{
+    width: 250px;
+    height: 30px;
+    padding: 0 .5rem;
+    outline: none;
+    border: none;
+}
+
+.myLog__signup-content_right-input_btn {
+    padding: .2rem;
+    margin-left: .5rem;
+    width: 80px;
+    height: 30px;
+    color: var(--color-white);
+    background-color: var(--color-orangeA);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.myLog__signup-content_right-input_btn:hover {
+    background-color: var(--color-orangeB);
+}
+
+
+@media screen and (max-width:700px) {
+    .myLog__sign {
+            padding: 1rem 2rem;
+        }
+
+    .myLog__signup-content {
+            display: block;
+        }
+
+    .myLog__signup-content_left {
+        margin-bottom: 2rem;
+    }
+
+    .myLog__signup-content_right-title {
+        font-size: 0.85rem;
+    }
+    
+    .myLog__signup-content_right-desc {
+        font-size: .75rem;
+    }
+
+    .myLog__signup-content_left-starIconWrap {
+        width: 45px;
+        height: 45px;
+    }
+
+    .myLog__signup-content_left-starIconWrap_starIcon {
+        font-size: 2rem !important;
+    }
+
+    .myLog__signup-content_left-desc p {
+        font-size: 0.75rem;
+    }
+
+    .myLog__signup-content_left-desc_os p {
+        padding: .2rem;
+        margin-top: 0;
+    }
+
+    .myLog__signup-content_left-desc_os-iconWrap_icon {
+        font-size: 2.5rem !important;
+    }
+
+
+
+}
